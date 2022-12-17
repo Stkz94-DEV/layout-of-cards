@@ -1,0 +1,11 @@
+.card__text_icon::before {
+  content: "";
+  display: inline-block;
+  vertical-align: baseline;
+  width: 16px;
+  height: 11px;
+  background-image: url("../../../../images/moscow-metro-icon.svg");
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin-right: 10px;
+}
