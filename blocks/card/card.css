@@ -1,0 +1,16 @@
+@import url("./__content/card__content.css");
+@import url("./__title/card__title.css");
+@import url("./__text/card__text.css");
+@import url("./__text/_color/card__text_color.css");
+@import url("./__img/card__img.css");
+@import url("./__text/_icon/card__text_icon.css");
+@import url("./__badges/card__badges.css");
+@import url("./__badge/card__badge.css");
+@import url("./__badge/_credit/card__badge_credit.css");
+
+.card {
+  position: relative;
+  width: 270px;
+  border-radius: 4px;
+  overflow: hidden;
+}
