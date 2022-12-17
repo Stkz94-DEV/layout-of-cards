@@ -1,0 +1,9 @@
+.card__badge {
+  display: inline-block;
+  background-color: #ffcf26;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 3px 10px;
+}
