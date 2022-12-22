@@ -1,0 +1,15 @@
+.location__checkbox {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  opacity: 0;
+  appearance: none;
+}
+
+.location__checkbox:checked + .location__btn {
+  background-color: #ffcf26;
+}
+
+.location__checkbox:checked + .location__btn:hover {
+  background-color: #e0b000;
+}
