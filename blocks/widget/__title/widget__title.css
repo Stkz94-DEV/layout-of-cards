@@ -1,7 +1,21 @@
 .widget__title {
+  position: relative;
   font-size: 18px;
   line-height: 21px;
   font-weight: 700;
   color: #000000;
-  margin: 0;
+  margin: 0 0 20px;
+}
+
+.widget__title::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../../../images/shape-icon.svg");
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: center;
 }
